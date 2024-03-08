@@ -1,0 +1,27 @@
+{
+  "name": "intermediate-astro-kit-less",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npx tinacms dev -c \"astro dev\"",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "astro": "^3.3.1",
+    "astro-netlify-cms": "^0.5.4",
+    "autoprefixer": "^10.4.16",
+    "less": "^4.2.0",
+    "tinacms": "^1.6.0"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.42",
+    "@types/node": "^20.11.25"
+  }
+}
